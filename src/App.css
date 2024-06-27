@@ -1,6 +1,13 @@
+
+/* In your main CSS or SCSS file (e.g., styles.css or styles.scss) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ntr-regular {
+  font-family: "NTR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
